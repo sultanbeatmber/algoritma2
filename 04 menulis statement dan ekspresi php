@@ -1,6 +1,5 @@
 <?php
-echo "ini statement 1<p>";
-echo "ini statement 2<p>";
+echo "ini statement 2";
 //deklarasikan sebuah variable
 $b = 10;
 $c = 5;
@@ -9,7 +8,7 @@ $a1 = $b * $c;
 $a2 = $b + $c;
 //cetak ekspresi
 echo "<p>ini expresi -> $a1 = $b * $c <p>";
-echo "<p>ini expresi -> $a2 = $b + $c <p>";
+echo "<p>ini expresi -> $a2 = $b * $c <p>";
 echo "<p>yaitu : " . $a1;
 echo "<p>yaitu : " . $a2;
 echo "<p>by sultan z</p>";
@@ -18,3 +17,5 @@ echo "<p>by sultan z</p>";
 echo "ini statement 1";
 echo "ini statement 2";
 $a = $b + $c
+
+echo "<br><br><strong>by sultan fauzan</strong>";
