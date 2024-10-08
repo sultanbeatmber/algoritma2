@@ -1,0 +1,28 @@
+<?php
+print "<h2>Belajar PHP dari Nol!</h2>";
+print "Hello world!<br>";
+print "Belajar mecetak teks di PHP!";
+
+//break
+$buku = "modul belajar php";
+
+print "<p>bahan ajar yang dipelajari untuk mapel produktif RPL di kelas XI adalah " . $buku . "<br>";
+
+$cetak = print("Hello World!");
+//$cetak = echo ("Hello World!"); 
+//jika menggunakan echo pasti error
+print "<p>". $cetak;
+print"<p>".("Hello").("World"); // <-- ini akan error
+
+echo "<p>"."Ini ", "teks ", "yang ", "dibuat ", "terpisah.";
+echo "<p>"."1" + "1"; // akan menghasilkan 2
+echo "<p>"."1" . "1"; // akan menghasilkan 11
+
+$txt1 = "Tutorial PHP";
+$txt2 = "ahmadimuslim.com";
+$x = 5;
+$y = 4;
+
+echo "<p>saya sedang mempelajari "."<h2>" . $txt1 . "</h2>";
+echo "saya belajar pemrograman PHP di " . $txt2 . "<br>";
+echo $x + $y;
